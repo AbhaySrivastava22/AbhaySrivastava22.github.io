@@ -1,0 +1,149 @@
+body
+{width: 100%;
+	height:auto;
+	background-image: url("bg2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover; 
+	margin: 0;
+	padding: 0;
+
+}
+html
+{
+	scroll-behavior: smooth;
+}
+section
+{height: 100vh;
+
+}
+h1
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #ddd;
+	font-size: 4em;
+	font-family: sans-serif;
+	letter-spacing: 0.1em;
+}
+
+h1 span
+{
+	display: inline-block;
+	animation: animate 6s linear;
+}
+@keyframes animate {
+0%
+{
+	opacity: 0;
+	transform: rotateY(90deg);
+filter: blur(10px);
+}
+100%
+{
+	opacity: 1;
+	transform: rotateY(0deg);
+	filter: blur(0px);
+ }
+}
+
+h2
+{
+	animation:type 6s steps(27);
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: sans-serif;
+	border-right: 0px solid #ddd;
+	width: 27ch;
+	height: auto;
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	transform: translateY(-50%);
+	color: #ddd;
+	margin: 0;
+	padding: 0;
+	top: 60%;
+	left: 30%;
+	position: absolute;
+
+}
+@keyframes type 
+{
+	0%
+	{
+		opacity: 1;
+		width: 0ch;
+		border-right: 4px solid #ddd;
+	}
+	100%
+	{
+		opacity: 1;
+		width: 27ch;
+		border-right: 4px solid #ddd;
+			}
+}
+.button
+{
+	text-align: center;
+	color: white;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	top: 80%;
+	position: absolute;
+	left: 43%;
+	border-color: #ddd;
+	border-style: solid;
+	font-size: 1.5em;
+	width: 10%;
+	text-align: center;
+	font-family: sans-serif;
+ animation: animate 9s;
+ border-radius: 0.5em;
+}
+nav
+{
+	width: auto;
+	background:transparent;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+li
+{
+	float: left;
+}
+a
+{
+	font-family: sans-serif;
+	padding: 20px;
+	font-size: 1em;
+	width: auto;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+.copyrights
+{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 1em;
+	top:95%;
+	position: absolute;
+	left: 37%;
+}
