@@ -140,6 +140,14 @@ a
 }
 @media only screen and (max-width: 500px)
 {
+	nav,ul,a,li
+	{
+		width: 100%;
+	}
+	h1
+	{
+		width: 60%;
+	}
 	h2
 	{
 		font-size: 1em;
