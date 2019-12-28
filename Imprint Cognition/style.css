@@ -1,14 +1,11 @@
-body
-{
+html,
+body {
+  background: url(bg2.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
 
-	margin: 0;
-	padding: 0;
-	background-image: url("bg2.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: auto;
-	font-family: sans-serif;
 }
 h1
 {
@@ -63,9 +60,9 @@ h2
 	top: 60%;
 	left: 30%;
 	position: absolute;
-animation:type 6s steps(27);
-	display: inline-block;
 
+	animation:type 6s steps(27);
+	display: inline-block;
 }
 @keyframes type 
 {
@@ -95,7 +92,7 @@ animation:type 6s steps(27);
 	border-color: #ddd;
 	border-style: solid;
 	font-size: 1.5em;
-	width: 10%;
+	width: auto;
 	text-align: center;
 	font-family: sans-serif;
  animation: animate 9s;
@@ -140,4 +137,11 @@ a
 	top:95%;
 	position: absolute;
 	left: 37%;
+}
+@media only screen and (max-width: 500px)
+{
+	h2
+	{
+		font-size: 1em;
+	}
 }
