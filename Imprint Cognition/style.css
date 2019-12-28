@@ -138,7 +138,7 @@ a
 	position: absolute;
 	left: 37%;
 }
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 720px)
 {
 	nav,ul,a,li
 	{
