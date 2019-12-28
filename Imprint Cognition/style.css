@@ -1,20 +1,14 @@
 body
-{width: 100%;
-	height:auto;
-	background-image: url("bg2.jpg");
-	background-repeat: no-repeat;
-	background-size:cover; 
+{
+
 	margin: 0;
 	padding: 0;
-
-}
-html
-{
-	scroll-behavior: smooth;
-}
-section
-{height: 100vh;
-
+	background-image: url("bg2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
 }
 h1
 {
@@ -53,14 +47,12 @@ filter: blur(10px);
 
 h2
 {
-	animation:type 6s steps(27);
-	display: inline-block;
+	
 	overflow: hidden;
 	white-space: nowrap;
 	font-family: sans-serif;
 	border-right: 0px solid #ddd;
 	width: 27ch;
-	height: auto;
 	text-align: center;
 	font-size: 2em;
 	letter-spacing: 0.1em;
@@ -72,6 +64,11 @@ h2
 	left: 30%;
 	position: absolute;
 
+}
+h2 span
+{
+	animation:type 6s steps(27);
+	display: inline-block;
 }
 @keyframes type 
 {

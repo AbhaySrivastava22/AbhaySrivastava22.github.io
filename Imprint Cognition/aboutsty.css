@@ -16,7 +16,7 @@ nav
 	position: fixed;
 	top: 0;
 }
-ul , .contact ul
+ul
 {
 	padding: 0;
 	margin: 0;
@@ -117,4 +117,20 @@ top: 10%;
 	top: 90%;
 	left: 49%;
 	position: absolute;
+}
+@media only screen and (max-width: 500px)
+{
+	.Contact #img2, .Contact #img1, .Contact p, .logo .page, .logo .ownerlogo, .logo .imprint, .logo img, body, .copyrights, nav, ul, li, a
+	{
+		width: auto;
+	}
+	.logo .page
+	{
+		left:center;
+	}
+
+	.logo .imprint
+	{
+		font-size: 1em;
+	}
 }

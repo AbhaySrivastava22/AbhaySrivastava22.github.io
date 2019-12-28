@@ -10,13 +10,6 @@ body
 	font-family: sans-serif;
 	
 }
-.quotenav
-{
-	width: auto;
-	background: transparent;
-	overflow: hidden;
-	top: 5%;
-}
 nav
 {
 	width: auto;
@@ -95,4 +88,11 @@ width: 100%;
 	font-family: sans-serif;
 	color: #fff;
 	font-size: 1em;
+}
+@media only screen and (max-width: 500px)
+{
+	.cpoyrights, .title, .container .box .imgBox img ,.container .box:hover .imgBox img, .container, .container .box, body, nav,ul, li, a
+	{
+		width: 100%;
+	}
 }
