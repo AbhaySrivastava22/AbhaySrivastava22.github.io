@@ -89,7 +89,7 @@ width: 100%;
 	color: #fff;
 	font-size: 1em;
 }
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 720px)
 {
 	.cpoyrights, .title, .container .box .imgBox img ,.container .box:hover .imgBox img, .container, .container .box, body, nav,ul, li, a
 	{
