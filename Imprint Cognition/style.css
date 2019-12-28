@@ -63,12 +63,9 @@ h2
 	top: 60%;
 	left: 30%;
 	position: absolute;
-
-}
-h2 span
-{
-	animation:type 6s steps(27);
+animation:type 6s steps(27);
 	display: inline-block;
+
 }
 @keyframes type 
 {
