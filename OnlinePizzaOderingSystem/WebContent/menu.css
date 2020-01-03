@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image: url("menucardbackground.jpg");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position:center;
+}
+table
+{
+	color:white;
+	font-weight: bold;
+	}
+	h1
+	{
+	color:white;
+	}
+	h4
+	{
+	color:white;
+	}

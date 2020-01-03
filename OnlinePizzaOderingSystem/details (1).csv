@@ -1,0 +1,5 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"ITEM_NO","NUMBER(2,0)","Yes","",""
+"ITEM_NAME","VARCHAR2(50)","Yes","",""
+"ESTIMATED_TIME","VARCHAR2(20)","Yes","",""
+"PRICE","NUMBER(4,0)","Yes","",""
